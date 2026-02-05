@@ -12,7 +12,7 @@
   <img src="https://raw.githubusercontent.com/DavFilsDev/DavFilsDev/main/assets/header.svg" alt="Cyber & AI Header" width="100%" />
 </p>
 
-## 📊 Engineering Activity Snapshot
+## Engineering Activity Snapshot
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=DavFilsDev&show_icons=true&hide_title=true&hide_rank=true&bg_color=0B0E14&icon_color=0FB9B1&text_color=F5F7FA&border_color=0B0E14" />
