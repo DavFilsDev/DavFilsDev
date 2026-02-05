@@ -50,6 +50,89 @@
     </circle>
   </g>
 
+  <!-- ===== NEURAL NETWORK NODES ===== -->
+  <g id="neural-network" stroke="url(#cyberGradient)" stroke-width="1.2" fill="none" filter="url(#softGlow)" opacity="0.8">
+    
+    <!-- ===== NODES (MOVING SLOWLY) ===== -->
+    <circle cx="100" cy="50" r="3" fill="#F4B41A">
+      <animateTransform attributeName="transform" type="translate" values="0 0;5 5;0 0" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="300" cy="80" r="3">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-5 3;0 0" dur="18s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="500" cy="120" r="3">
+      <animateTransform attributeName="transform" type="translate" values="0 0;3 -4;0 0" dur="22s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="700" cy="50" r="3">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-4 -3;0 0" dur="20s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="900" cy="100" r="3">
+      <animateTransform attributeName="transform" type="translate" values="0 0;5 -5;0 0" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1100" cy="70" r="3">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-3 6;0 0" dur="23s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+
+
+   <!-- ===== NEW PARTICLES (BOTTOM FIELD) ===== -->
+<circle cx="150" cy="200" r="3" fill="#F4B41A">
+  <animateTransform attributeName="transform" type="translate" values="0 0;4 5;0 0" dur="21s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/>
+</circle>
+<circle cx="350" cy="220" r="3">
+  <animateTransform attributeName="transform" type="translate" values="0 0;-5 4;0 0" dur="19s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" repeatCount="indefinite"/>
+</circle>
+<circle cx="550" cy="180" r="3">
+  <animateTransform attributeName="transform" type="translate" values="0 0;3 -3;0 0" dur="23s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;1;0.2" dur="4.1s" repeatCount="indefinite"/>
+</circle>
+<circle cx="750" cy="250" r="3">
+  <animateTransform attributeName="transform" type="translate" values="0 0;-4 5;0 0" dur="20s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;1;0.2" dur="3.3s" repeatCount="indefinite"/>
+</circle>
+<circle cx="950" cy="210" r="3">
+  <animateTransform attributeName="transform" type="translate" values="0 0;5 -4;0 0" dur="25s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;1;0.2" dur="4.7s" repeatCount="indefinite"/>
+</circle>
+<circle cx="1150" cy="240" r="3">
+  <animateTransform attributeName="transform" type="translate" values="0 0;-3 6;0 0" dur="22s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" values="0.2;1;0.2" dur="5.1s" repeatCount="indefinite"/>
+</circle>
+
+    <!-- extra nodes for density -->
+    <circle cx="200" cy="150" r="2.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;2 -3;0 0" dur="25s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="400" cy="200" r="2.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-3 4;0 0" dur="26s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="3.8s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="600" cy="180" r="2.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;4 2;0 0" dur="27s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="800" cy="150" r="2.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-2 -4;0 0" dur="24s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1000" cy="200" r="2.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;3 -3;0 0" dur="25s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="4.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="1200" cy="120" r="2.5">
+      <animateTransform attributeName="transform" type="translate" values="0 0;-4 2;0 0" dur="26s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="5s" repeatCount="indefinite"/>
+    </circle>
+  </g>
+
   <!-- ===== ANIMATED NAME ===== -->
   <text x="50" y="150" font-size="60" font-family="Arial" fill="none" stroke="url(#cyberGradient)" stroke-width="2" 
         stroke-dasharray="400" stroke-dashoffset="400">
