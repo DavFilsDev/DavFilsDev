@@ -81,30 +81,30 @@
 
 
    <!-- ===== NEW PARTICLES (BOTTOM FIELD) ===== -->
-<circle cx="150" cy="200" r="3" fill="#F4B41A">
-  <animateTransform attributeName="transform" type="translate" values="0 0;4 5;0 0" dur="21s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/>
-</circle>
-<circle cx="350" cy="220" r="3">
-  <animateTransform attributeName="transform" type="translate" values="0 0;-5 4;0 0" dur="19s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" repeatCount="indefinite"/>
-</circle>
-<circle cx="550" cy="180" r="3">
-  <animateTransform attributeName="transform" type="translate" values="0 0;3 -3;0 0" dur="23s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.2;1;0.2" dur="4.1s" repeatCount="indefinite"/>
-</circle>
-<circle cx="750" cy="250" r="3">
-  <animateTransform attributeName="transform" type="translate" values="0 0;-4 5;0 0" dur="20s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.2;1;0.2" dur="3.3s" repeatCount="indefinite"/>
-</circle>
-<circle cx="950" cy="210" r="3">
-  <animateTransform attributeName="transform" type="translate" values="0 0;5 -4;0 0" dur="25s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.2;1;0.2" dur="4.7s" repeatCount="indefinite"/>
-</circle>
-<circle cx="1150" cy="240" r="3">
-  <animateTransform attributeName="transform" type="translate" values="0 0;-3 6;0 0" dur="22s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" values="0.2;1;0.2" dur="5.1s" repeatCount="indefinite"/>
-</circle>
+  <circle cx="150" cy="200" r="3" fill="#F4B41A">
+    <animateTransform attributeName="transform" type="translate" values="0 0;4 5;0 0" dur="21s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="350" cy="220" r="3">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-5 4;0 0" dur="19s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.6s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="550" cy="180" r="3">
+    <animateTransform attributeName="transform" type="translate" values="0 0;3 -3;0 0" dur="23s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4.1s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="750" cy="250" r="3">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-4 5;0 0" dur="20s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="3.3s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="950" cy="210" r="3">
+    <animateTransform attributeName="transform" type="translate" values="0 0;5 -4;0 0" dur="25s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="4.7s" repeatCount="indefinite"/>
+  </circle>
+  <circle cx="1150" cy="240" r="3">
+    <animateTransform attributeName="transform" type="translate" values="0 0;-3 6;0 0" dur="22s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.2;1;0.2" dur="5.1s" repeatCount="indefinite"/>
+  </circle>
 
     <!-- extra nodes for density -->
     <circle cx="200" cy="150" r="2.5">
@@ -142,7 +142,7 @@
 
   <!-- ===== TEXTE SECONDARY ===== -->
   <text x="50" y="200" font-size="24" font-family="Arial" fill="url(#cyberGradient)" font-style="italic">
-    Cybersecurity and AI-Oriented Engineer
+    Artificial Intelligence / Machine Learning-Oriented Engineer
   </text>
 
   <!-- ===== LOGO (2D/3D) ===== -->
