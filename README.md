@@ -12,20 +12,6 @@
   <img src="https://raw.githubusercontent.com/DavFilsDev/DavFilsDev/main/assets/header.svg" alt="Cyber & AI Header" width="100%" />
 </p>
 
-<h1 align="center">David Ratiandraibe</h1>
-
-<p align="center">
-  <strong>Backend Developer · Cybersecurity & AI-Oriented Engineer</strong>
-</p>
-
-<p align="center">
-  <em>
-    Designing secure, reliable and intelligent systems with a long-term engineering mindset.
-  </em>
-</p>
-
----
-
 ## 📊 Engineering Activity Snapshot
 
 <p align="center">
