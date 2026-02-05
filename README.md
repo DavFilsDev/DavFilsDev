@@ -118,7 +118,7 @@ Automated insights and visual indicators will progressively enhance this section
 ## 📫 Contact
 
 - GitHub: **@YOUR_USERNAME**
-- Email: **your.email@example.com**
+- Email: **miharisoadavidfils@gmail.com**
 
 ---
 
