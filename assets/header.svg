@@ -1,5 +1,4 @@
 <svg width="1200" height="320" viewBox="0 0 1200 320" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Cyber AI animated header">
-  <!-- ===== DEFINITIONS ===== -->
   <defs>
     <linearGradient id="cyberGradient" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#0FB9B1"/>
@@ -14,10 +13,8 @@
     </filter>
   </defs>
 
-  <!-- ===== BACKGROUND ===== -->
   <rect width="1200" height="320" fill="#0B0E14"/>
 
-  <!-- ===== ANIMATED LINES ===== -->
   <g stroke="url(#cyberGradient)" stroke-width="2" fill="none" filter="url(#softGlow)" opacity="0.85">
     <path d="M-200 80 H1400">
       <animateTransform attributeName="transform" type="translate" from="0 0" to="200 0" dur="12s" repeatCount="indefinite" />
@@ -30,7 +27,6 @@
     </path>
   </g>
 
-  <!-- ===== NODES ===== -->
   <g fill="#F4B41A" opacity="0.9">
     <circle cx="300" cy="80" r="3">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="4s" repeatCount="indefinite"/>
@@ -41,7 +37,6 @@
     <circle cx="1000" cy="240" r="3">
       <animate attributeName="opacity" values="0.3;1;0.3" dur="6s" repeatCount="indefinite"/>
     </circle>
-    <!-- Extra particles -->
     <circle cx="500" cy="50" r="2.5">
       <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite" />
     </circle>
@@ -50,10 +45,8 @@
     </circle>
   </g>
 
-  <!-- ===== NEURAL NETWORK NODES ===== -->
   <g id="neural-network" stroke="url(#cyberGradient)" stroke-width="1.2" fill="none" filter="url(#softGlow)" opacity="0.8">
     
-    <!-- ===== NODES (MOVING SLOWLY) ===== -->
     <circle cx="100" cy="50" r="3" fill="#F4B41A">
       <animateTransform attributeName="transform" type="translate" values="0 0;5 5;0 0" dur="20s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.2;1;0.2" dur="3s" repeatCount="indefinite"/>
@@ -80,7 +73,6 @@
     </circle>
 
 
-   <!-- ===== NEW PARTICLES (BOTTOM FIELD) ===== -->
   <circle cx="150" cy="200" r="3" fill="#F4B41A">
     <animateTransform attributeName="transform" type="translate" values="0 0;4 5;0 0" dur="21s" repeatCount="indefinite"/>
     <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/>
@@ -106,7 +98,6 @@
     <animate attributeName="opacity" values="0.2;1;0.2" dur="5.1s" repeatCount="indefinite"/>
   </circle>
 
-    <!-- extra nodes for density -->
     <circle cx="200" cy="150" r="2.5">
       <animateTransform attributeName="transform" type="translate" values="0 0;2 -3;0 0" dur="25s" repeatCount="indefinite"/>
       <animate attributeName="opacity" values="0.2;1;0.2" dur="3.2s" repeatCount="indefinite"/>
@@ -133,19 +124,16 @@
     </circle>
   </g>
 
-  <!-- ===== ANIMATED NAME ===== -->
-  <text x="50" y="150" font-size="60" font-family="Arial" fill="none" stroke="url(#cyberGradient)" stroke-width="2" 
+  <text x="50" y="150" font-size="50" font-family="Arial" fill="none" stroke="url(#cyberGradient)" stroke-width="2" 
         stroke-dasharray="400" stroke-dashoffset="400">
-    Full stack web Developer
+   Full Stack Web / Mobile Developer
     <animate attributeName="stroke-dashoffset" from="400" to="0" dur="3s" fill="freeze" />
   </text>
 
-  <!-- ===== TEXTE SECONDARY ===== -->
   <text x="50" y="200" font-size="24" font-family="Arial" fill="url(#cyberGradient)" font-style="italic">
     Artificial Intelligence / Machine Learning-Oriented Engineer
   </text>
 
-  <!-- ===== LOGO (2D/3D) ===== -->
   <polygon points="1100,50 1150,150 1050,150" fill="url(#cyberGradient)" filter="url(#softGlow)">
     <animateTransform attributeName="transform" type="rotate" from="0 1100 100" to="360 1100 100" dur="10s" repeatCount="indefinite"/>
   </polygon>
