@@ -134,7 +134,10 @@
     Artificial Intelligence / Machine Learning-Oriented Engineer
   </text>
 
-  <polygon points="1100,50 1150,150 1050,150" fill="url(#cyberGradient)" filter="url(#softGlow)">
-    <animateTransform attributeName="transform" type="rotate" from="0 1100 100" to="360 1100 100" dur="10s" repeatCount="indefinite"/>
-  </polygon>
+<g filter="url(#softGlow)">
+  <animateTransform attributeName="transform" type="rotate" from="0 1100 100" to="360 1100 100" dur="10s" repeatCount="indefinite"/>
+  <polygon points="1100,50 1150,75 1100,100 1050,75" fill="#F4B41A" opacity="0.95"/>
+  <polygon points="1050,75 1100,100 1100,150 1050,125" fill="#000000" opacity="0.85"/>
+  <polygon points="1100,100 1150,75 1150,125 1100,150" fill="#0FB9B1" opacity="0.6"/>
+</g>
 </svg>
